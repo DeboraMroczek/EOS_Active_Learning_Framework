@@ -1,0 +1,13 @@
+{
+    "low_muB": 220.0,
+    "high_muB": 420.0,
+    "low_w": 0.1,
+    "high_w": 10.0,
+    "low_rho": 0.1,
+    "high_rho": 10.0,
+    "low_angle_diff": -179.0,
+    "high_angle_diff":179.0,
+    "muB_inc": 20,
+    "w_rho_inc": 0.5,
+    "angle_diff_inc":5
+}

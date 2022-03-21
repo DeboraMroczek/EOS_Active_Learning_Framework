@@ -1,0 +1,1151 @@
+train:(24364, 4)(24364,)
+
+test :(10442, 4)(10442,)
+
+unique classes: 3
+
+stopping at:10440
+
+Count = 1, using model = RfModel, selection_function = MarginSamplingSelection, k = 348, iteration = 0. 
+
+
+initial random chosen samples (348,)
+initial train set: (348, 4) (348,) unique(labels): [ 70  97 181] [0 1 2]
+Pool set:(24016, 4)(24016,)(348,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (348, 4) y: (348,)
+Pool  set: (24016, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 1
+--------------------------------
+y-test set: (10442,)
+Example run in 1.242 s 
+
+Accuracy rate for 82.225627 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.90      0.65      0.76      2692
+           1       0.76      0.89      0.82      2421
+           2       0.82      0.88      0.85      5329
+
+    accuracy                           0.82     10442
+   macro avg       0.83      0.81      0.81     10442
+weighted avg       0.83      0.82      0.82     10442
+
+
+Confusion matrix:
+[[1756  182  754]
+ [  18 2157  246]
+ [ 169  487 4673]]
+--------------------------------
+trainset before(348, 4)(348,)
+
+trainset after(696, 4)(696,)
+
+updated train set:(696, 4)(696,)unique(labels): [234 167 295][0 1 2]
+
+Pool set:(23668, 4)(23668,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (696, 4) y: (696,)
+Pool  set: (23668, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 2
+--------------------------------
+y-test set: (10442,)
+Example run in 1.603 s 
+
+Accuracy rate for 88.479219 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.87      0.85      0.86      2692
+           1       0.87      0.88      0.88      2421
+           2       0.90      0.91      0.90      5329
+
+    accuracy                           0.88     10442
+   macro avg       0.88      0.88      0.88     10442
+weighted avg       0.88      0.88      0.88     10442
+
+
+Confusion matrix:
+[[2278  106  308]
+ [  55 2131  235]
+ [ 297  202 4830]]
+--------------------------------
+trainset before(696, 4)(696,)
+
+trainset after(1044, 4)(1044,)
+
+updated train set:(1044, 4)(1044,)unique(labels): [359 253 432][0 1 2]
+
+Pool set:(23320, 4)(23320,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (1044, 4) y: (1044,)
+Pool  set: (23320, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 3
+--------------------------------
+y-test set: (10442,)
+Example run in 1.592 s 
+
+Accuracy rate for 90.011492 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.91      0.86      0.89      2692
+           1       0.88      0.89      0.89      2421
+           2       0.90      0.92      0.91      5329
+
+    accuracy                           0.90     10442
+   macro avg       0.90      0.89      0.90     10442
+weighted avg       0.90      0.90      0.90     10442
+
+
+Confusion matrix:
+[[2324   58  310]
+ [  45 2162  214]
+ [ 175  241 4913]]
+--------------------------------
+trainset before(1044, 4)(1044,)
+
+trainset after(1392, 4)(1392,)
+
+updated train set:(1392, 4)(1392,)unique(labels): [459 333 600][0 1 2]
+
+Pool set:(22972, 4)(22972,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (1392, 4) y: (1392,)
+Pool  set: (22972, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 4
+--------------------------------
+y-test set: (10442,)
+Example run in 2.076 s 
+
+Accuracy rate for 91.974717 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.93      0.89      0.91      2692
+           1       0.92      0.89      0.91      2421
+           2       0.92      0.95      0.93      5329
+
+    accuracy                           0.92     10442
+   macro avg       0.92      0.91      0.92     10442
+weighted avg       0.92      0.92      0.92     10442
+
+
+Confusion matrix:
+[[2405   53  234]
+ [  38 2157  226]
+ [ 157  130 5042]]
+--------------------------------
+trainset before(1392, 4)(1392,)
+
+trainset after(1740, 4)(1740,)
+
+updated train set:(1740, 4)(1740,)unique(labels): [563 447 730][0 1 2]
+
+Pool set:(22624, 4)(22624,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (1740, 4) y: (1740,)
+Pool  set: (22624, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 5
+--------------------------------
+y-test set: (10442,)
+Example run in 2.271 s 
+
+Accuracy rate for 93.325034 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.93      0.93      0.93      2692
+           1       0.93      0.91      0.92      2421
+           2       0.94      0.95      0.94      5329
+
+    accuracy                           0.93     10442
+   macro avg       0.93      0.93      0.93     10442
+weighted avg       0.93      0.93      0.93     10442
+
+
+Confusion matrix:
+[[2508   24  160]
+ [  41 2195  185]
+ [ 148  139 5042]]
+--------------------------------
+trainset before(1740, 4)(1740,)
+
+trainset after(2088, 4)(2088,)
+
+updated train set:(2088, 4)(2088,)unique(labels): [661 549 878][0 1 2]
+
+Pool set:(22276, 4)(22276,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (2088, 4) y: (2088,)
+Pool  set: (22276, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 6
+--------------------------------
+y-test set: (10442,)
+Example run in 2.432 s 
+
+Accuracy rate for 94.081594 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94      2692
+           1       0.94      0.92      0.93      2421
+           2       0.94      0.95      0.95      5329
+
+    accuracy                           0.94     10442
+   macro avg       0.94      0.94      0.94     10442
+weighted avg       0.94      0.94      0.94     10442
+
+
+Confusion matrix:
+[[2544   21  127]
+ [  29 2220  172]
+ [ 145  124 5060]]
+--------------------------------
+trainset before(2088, 4)(2088,)
+
+trainset after(2436, 4)(2436,)
+
+updated train set:(2436, 4)(2436,)unique(labels): [ 736  662 1038][0 1 2]
+
+Pool set:(21928, 4)(21928,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (2436, 4) y: (2436,)
+Pool  set: (21928, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 7
+--------------------------------
+y-test set: (10442,)
+Example run in 2.347 s 
+
+Accuracy rate for 94.407202 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94      2692
+           1       0.94      0.93      0.93      2421
+           2       0.95      0.95      0.95      5329
+
+    accuracy                           0.94     10442
+   macro avg       0.94      0.94      0.94     10442
+weighted avg       0.94      0.94      0.94     10442
+
+
+Confusion matrix:
+[[2541   26  125]
+ [  12 2253  156]
+ [ 139  126 5064]]
+--------------------------------
+trainset before(2436, 4)(2436,)
+
+trainset after(2784, 4)(2784,)
+
+updated train set:(2784, 4)(2784,)unique(labels): [ 841  749 1194][0 1 2]
+
+Pool set:(21580, 4)(21580,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (2784, 4) y: (2784,)
+Pool  set: (21580, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 8
+--------------------------------
+y-test set: (10442,)
+Example run in 2.880 s 
+
+Accuracy rate for 94.751963 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.95      2692
+           1       0.94      0.93      0.94      2421
+           2       0.95      0.96      0.95      5329
+
+    accuracy                           0.95     10442
+   macro avg       0.95      0.94      0.95     10442
+weighted avg       0.95      0.95      0.95     10442
+
+
+Confusion matrix:
+[[2542   23  127]
+ [  16 2261  144]
+ [ 123  115 5091]]
+--------------------------------
+trainset before(2784, 4)(2784,)
+
+trainset after(3132, 4)(3132,)
+
+updated train set:(3132, 4)(3132,)unique(labels): [ 986  821 1325][0 1 2]
+
+Pool set:(21232, 4)(21232,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (3132, 4) y: (3132,)
+Pool  set: (21232, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 9
+--------------------------------
+y-test set: (10442,)
+Example run in 3.063 s 
+
+Accuracy rate for 95.154185 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95      2692
+           1       0.95      0.94      0.94      2421
+           2       0.95      0.96      0.96      5329
+
+    accuracy                           0.95     10442
+   macro avg       0.95      0.95      0.95     10442
+weighted avg       0.95      0.95      0.95     10442
+
+
+Confusion matrix:
+[[2557   25  110]
+ [  15 2265  141]
+ [ 119   96 5114]]
+--------------------------------
+trainset before(3132, 4)(3132,)
+
+trainset after(3480, 4)(3480,)
+
+updated train set:(3480, 4)(3480,)unique(labels): [1070  914 1496][0 1 2]
+
+Pool set:(20884, 4)(20884,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (3480, 4) y: (3480,)
+Pool  set: (20884, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 10
+--------------------------------
+y-test set: (10442,)
+Example run in 3.272 s 
+
+Accuracy rate for 95.336143 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95      2692
+           1       0.95      0.95      0.95      2421
+           2       0.96      0.96      0.96      5329
+
+    accuracy                           0.95     10442
+   macro avg       0.95      0.95      0.95     10442
+weighted avg       0.95      0.95      0.95     10442
+
+
+Confusion matrix:
+[[2549   18  125]
+ [  13 2295  113]
+ [ 114  104 5111]]
+--------------------------------
+trainset before(3480, 4)(3480,)
+
+trainset after(3828, 4)(3828,)
+
+updated train set:(3828, 4)(3828,)unique(labels): [1150 1015 1663][0 1 2]
+
+Pool set:(20536, 4)(20536,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (3828, 4) y: (3828,)
+Pool  set: (20536, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 11
+--------------------------------
+y-test set: (10442,)
+Example run in 3.482 s 
+
+Accuracy rate for 95.585137 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.96      2692
+           1       0.94      0.95      0.94      2421
+           2       0.96      0.96      0.96      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.95      0.95      0.95     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2560   22  110]
+ [  13 2296  112]
+ [  83  121 5125]]
+--------------------------------
+trainset before(3828, 4)(3828,)
+
+trainset after(4176, 4)(4176,)
+
+updated train set:(4176, 4)(4176,)unique(labels): [1233 1116 1827][0 1 2]
+
+Pool set:(20188, 4)(20188,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (4176, 4) y: (4176,)
+Pool  set: (20188, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 12
+--------------------------------
+y-test set: (10442,)
+Example run in 3.757 s 
+
+Accuracy rate for 96.111856 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96      2692
+           1       0.95      0.95      0.95      2421
+           2       0.96      0.97      0.96      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2576   16  100]
+ [  12 2309  100]
+ [  79   99 5151]]
+--------------------------------
+trainset before(4176, 4)(4176,)
+
+trainset after(4524, 4)(4524,)
+
+updated train set:(4524, 4)(4524,)unique(labels): [1337 1197 1990][0 1 2]
+
+Pool set:(19840, 4)(19840,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (4524, 4) y: (4524,)
+Pool  set: (19840, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 13
+--------------------------------
+y-test set: (10442,)
+Example run in 3.927 s 
+
+Accuracy rate for 96.140586 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96      2692
+           1       0.95      0.95      0.95      2421
+           2       0.96      0.97      0.97      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2579   18   95]
+ [  15 2303  103]
+ [  77   95 5157]]
+--------------------------------
+trainset before(4524, 4)(4524,)
+
+trainset after(4872, 4)(4872,)
+
+updated train set:(4872, 4)(4872,)unique(labels): [1448 1295 2129][0 1 2]
+
+Pool set:(19492, 4)(19492,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (4872, 4) y: (4872,)
+Pool  set: (19492, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 14
+--------------------------------
+y-test set: (10442,)
+Example run in 4.117 s 
+
+Accuracy rate for 96.312967 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96      2692
+           1       0.96      0.95      0.95      2421
+           2       0.96      0.97      0.97      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2591   15   86]
+ [  12 2305  104]
+ [  75   93 5161]]
+--------------------------------
+trainset before(4872, 4)(4872,)
+
+trainset after(5220, 4)(5220,)
+
+updated train set:(5220, 4)(5220,)unique(labels): [1553 1375 2292][0 1 2]
+
+Pool set:(19144, 4)(19144,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (5220, 4) y: (5220,)
+Pool  set: (19144, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 15
+--------------------------------
+y-test set: (10442,)
+Example run in 4.403 s 
+
+Accuracy rate for 96.437464 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2585   20   87]
+ [  13 2314   94]
+ [  76   82 5171]]
+--------------------------------
+trainset before(5220, 4)(5220,)
+
+trainset after(5568, 4)(5568,)
+
+updated train set:(5568, 4)(5568,)unique(labels): [1684 1452 2432][0 1 2]
+
+Pool set:(18796, 4)(18796,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (5568, 4) y: (5568,)
+Pool  set: (18796, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 16
+--------------------------------
+y-test set: (10442,)
+Example run in 4.519 s 
+
+Accuracy rate for 96.284237 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96      2692
+           1       0.95      0.95      0.95      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2594   19   79]
+ [  16 2304  101]
+ [  80   93 5156]]
+--------------------------------
+trainset before(5568, 4)(5568,)
+
+trainset after(5916, 4)(5916,)
+
+updated train set:(5916, 4)(5916,)unique(labels): [1796 1538 2582][0 1 2]
+
+Pool set:(18448, 4)(18448,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (5916, 4) y: (5916,)
+Pool  set: (18448, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 17
+--------------------------------
+y-test set: (10442,)
+Example run in 4.675 s 
+
+Accuracy rate for 96.466194 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2589   18   85]
+ [  12 2323   86]
+ [  85   83 5161]]
+--------------------------------
+trainset before(5916, 4)(5916,)
+
+trainset after(6264, 4)(6264,)
+
+updated train set:(6264, 4)(6264,)unique(labels): [1899 1642 2723][0 1 2]
+
+Pool set:(18100, 4)(18100,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (6264, 4) y: (6264,)
+Pool  set: (18100, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 18
+--------------------------------
+y-test set: (10442,)
+Example run in 4.517 s 
+
+Accuracy rate for 96.408734 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.97      2692
+           1       0.95      0.96      0.95      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.96     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.96      0.96      0.96     10442
+
+
+Confusion matrix:
+[[2596   19   77]
+ [  12 2321   88]
+ [  76  103 5150]]
+--------------------------------
+trainset before(6264, 4)(6264,)
+
+trainset after(6612, 4)(6612,)
+
+updated train set:(6612, 4)(6612,)unique(labels): [1988 1721 2903][0 1 2]
+
+Pool set:(17752, 4)(17752,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (6612, 4) y: (6612,)
+Pool  set: (17752, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 19
+--------------------------------
+y-test set: (10442,)
+Example run in 5.124 s 
+
+Accuracy rate for 96.571538 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.97      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2596   18   78]
+ [  12 2326   83]
+ [  78   89 5162]]
+--------------------------------
+trainset before(6612, 4)(6612,)
+
+trainset after(6960, 4)(6960,)
+
+updated train set:(6960, 4)(6960,)unique(labels): [2102 1797 3061][0 1 2]
+
+Pool set:(17404, 4)(17404,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (6960, 4) y: (6960,)
+Pool  set: (17404, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 20
+--------------------------------
+y-test set: (10442,)
+Example run in 4.762 s 
+
+Accuracy rate for 96.571538 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.96      0.96      0.96     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2592   17   83]
+ [  15 2330   76]
+ [  84   83 5162]]
+--------------------------------
+trainset before(6960, 4)(6960,)
+
+trainset after(7308, 4)(7308,)
+
+updated train set:(7308, 4)(7308,)unique(labels): [2199 1886 3223][0 1 2]
+
+Pool set:(17056, 4)(17056,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (7308, 4) y: (7308,)
+Pool  set: (17056, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 21
+--------------------------------
+y-test set: (10442,)
+Example run in 5.386 s 
+
+Accuracy rate for 96.734342 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.97      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.97      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2595   20   77]
+ [  12 2336   73]
+ [  76   83 5170]]
+--------------------------------
+trainset before(7308, 4)(7308,)
+
+trainset after(7656, 4)(7656,)
+
+updated train set:(7656, 4)(7656,)unique(labels): [2332 1948 3376][0 1 2]
+
+Pool set:(16708, 4)(16708,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (7656, 4) y: (7656,)
+Pool  set: (16708, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 22
+--------------------------------
+y-test set: (10442,)
+Example run in 4.959 s 
+
+Accuracy rate for 96.743919 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.97      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2604   18   70]
+ [  11 2336   74]
+ [  87   80 5162]]
+--------------------------------
+trainset before(7656, 4)(7656,)
+
+trainset after(8004, 4)(8004,)
+
+updated train set:(8004, 4)(8004,)unique(labels): [2449 2045 3510][0 1 2]
+
+Pool set:(16360, 4)(16360,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (8004, 4) y: (8004,)
+Pool  set: (16360, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 23
+--------------------------------
+y-test set: (10442,)
+Example run in 5.603 s 
+
+Accuracy rate for 96.657728 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.96      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2603   16   73]
+ [  15 2334   72]
+ [  86   87 5156]]
+--------------------------------
+trainset before(8004, 4)(8004,)
+
+trainset after(8352, 4)(8352,)
+
+updated train set:(8352, 4)(8352,)unique(labels): [2572 2136 3644][0 1 2]
+
+Pool set:(16012, 4)(16012,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (8352, 4) y: (8352,)
+Pool  set: (16012, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 24
+--------------------------------
+y-test set: (10442,)
+Example run in 5.732 s 
+
+Accuracy rate for 96.657728 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96      2692
+           1       0.96      0.97      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.96      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2601   18   73]
+ [   9 2342   70]
+ [  92   87 5150]]
+--------------------------------
+trainset before(8352, 4)(8352,)
+
+trainset after(8700, 4)(8700,)
+
+updated train set:(8700, 4)(8700,)unique(labels): [2674 2199 3827][0 1 2]
+
+Pool set:(15664, 4)(15664,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (8700, 4) y: (8700,)
+Pool  set: (15664, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 25
+--------------------------------
+y-test set: (10442,)
+Example run in 5.864 s 
+
+Accuracy rate for 96.743919 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97      2692
+           1       0.96      0.97      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.97      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2600   20   72]
+ [  11 2338   72]
+ [  79   86 5164]]
+--------------------------------
+trainset before(8700, 4)(8700,)
+
+trainset after(9048, 4)(9048,)
+
+updated train set:(9048, 4)(9048,)unique(labels): [2769 2299 3980][0 1 2]
+
+Pool set:(15316, 4)(15316,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (9048, 4) y: (9048,)
+Pool  set: (15316, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 26
+--------------------------------
+y-test set: (10442,)
+Example run in 5.520 s 
+
+Accuracy rate for 96.667305 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97      2692
+           1       0.96      0.96      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.96      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2603   19   70]
+ [  13 2333   75]
+ [  83   88 5158]]
+--------------------------------
+trainset before(9048, 4)(9048,)
+
+trainset after(9396, 4)(9396,)
+
+updated train set:(9396, 4)(9396,)unique(labels): [2873 2414 4109][0 1 2]
+
+Pool set:(14968, 4)(14968,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (9396, 4) y: (9396,)
+Pool  set: (14968, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 27
+--------------------------------
+y-test set: (10442,)
+Example run in 6.132 s 
+
+Accuracy rate for 96.743919 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97      2692
+           1       0.96      0.97      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.97      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2603   17   72]
+ [  12 2341   68]
+ [  85   86 5158]]
+--------------------------------
+trainset before(9396, 4)(9396,)
+
+trainset after(9744, 4)(9744,)
+
+updated train set:(9744, 4)(9744,)unique(labels): [2967 2488 4289][0 1 2]
+
+Pool set:(14620, 4)(14620,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (9744, 4) y: (9744,)
+Pool  set: (14620, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 28
+--------------------------------
+y-test set: (10442,)
+Example run in 6.264 s 
+
+Accuracy rate for 96.801379 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97      2692
+           1       0.96      0.97      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.97      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2603   20   69]
+ [  12 2340   69]
+ [  76   88 5165]]
+--------------------------------
+trainset before(9744, 4)(9744,)
+
+trainset after(10092, 4)(10092,)
+
+updated train set:(10092, 4)(10092,)unique(labels): [3073 2600 4419][0 1 2]
+
+Pool set:(14272, 4)(14272,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (10092, 4) y: (10092,)
+Pool  set: (14272, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 29
+--------------------------------
+y-test set: (10442,)
+Example run in 5.911 s 
+
+Accuracy rate for 96.734342 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97      2692
+           1       0.96      0.97      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.96      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2604   16   72]
+ [  11 2345   65]
+ [  89   88 5152]]
+--------------------------------
+trainset before(10092, 4)(10092,)
+
+trainset after(10440, 4)(10440,)
+
+updated train set:(10440, 4)(10440,)unique(labels): [3187 2681 4572][0 1 2]
+
+Pool set:(13924, 4)(13924,)
+
+saved scaler.pkl /Users/deboramroczek/OneDrive - University of Illinois - Urbana/EOS_ALF/Files_12_03_param_only_RfModel_MarginSamplingSelection ['scaler.pkl', 'training_time.dat', 'queried.dat', 'model.pkl', 'report.dat']
+Train set: (10440, 4) y: (10440,)
+Pool  set: (13924, 4)
+Test  set: (10442, 4)
+training random forest...
+--------------------------------
+Iteration: 30
+--------------------------------
+y-test set: (10442,)
+Example run in 6.652 s 
+
+Accuracy rate for 96.772649 
+Classification report for classifier GridSearchCV(estimator=RandomForestClassifier(class_weight='balanced'),
+             param_grid={'n_estimators': [20, 50, 100]}):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96      2692
+           1       0.96      0.97      0.96      2421
+           2       0.97      0.97      0.97      5329
+
+    accuracy                           0.97     10442
+   macro avg       0.97      0.97      0.97     10442
+weighted avg       0.97      0.97      0.97     10442
+
+
+Confusion matrix:
+[[2599   18   75]
+ [  14 2341   66]
+ [  83   81 5165]]
+--------------------------------
+final active learning accuracies[82.2256272744685, 88.47921854050949, 90.01149205133116, 91.97471748707144, 93.32503351848305, 94.08159356445125, 94.40720168550087, 94.75196322543574, 95.15418502202643, 95.3361425014365, 95.58513694694503, 96.11185596628998, 96.14058609461789, 96.31296686458532, 96.43746408733959, 96.28423673625743, 96.4661942156675, 96.40873395901168, 96.57153801953649, 96.57153801953649, 96.73434208006128, 96.74391878950392, 96.6577284045202, 96.6577284045202, 96.74391878950392, 96.66730511396284, 96.74391878950392, 96.80137904615974, 96.73434208006128, 96.77264891783184]
+
+---------------------------- FINISHED ---------------------------
+
